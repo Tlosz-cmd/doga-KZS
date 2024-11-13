@@ -8,12 +8,12 @@ body {
     background-color: #f0f0f0;
 }
 
-.quote-container {
+.idezet-container {
     text-align: center;
     width: 300px;
 }
 
-#quote-box {
+#idezet-box {
     border: 1px solid #ccc;
     padding: 20px;
     background-color: #fff;
@@ -25,12 +25,12 @@ body {
     justify-content: center;
 }
 
-#quote-text {
+#idezet-text {
     font-size: 1.1em;
     margin: 0;
 }
 
-#quote-author {
+#idezet-author {
     font-size: 0.9em;
     color: #555;
 }
