@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.quote-container {
+    text-align: center;
+    width: 300px;
+}
+
+#quote-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#quote-text {
+    font-size: 1.1em;
+    margin: 0;
+}
+
+#quote-author {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#prev-btn, #next-btn {
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+}
+
+#favorite-btn {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+}
+
+#favorites {
+    margin-top: 20px;
+}
+
+#favorites-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#favorites-list li {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
